@@ -1,7 +1,7 @@
 {
   "name": "objhash",
   "main": "objhash",
-  "version": "1.0.6",
+  "version": "2.0.0",
   "description": "Retrieve a node.js object's V8 identity hash",
   "repository": {
     "type": "git",
@@ -12,7 +12,7 @@
     "email": "lxe@lxe.co"
   },
   "engines": {
-    "node": ">=0.8.0"
+    "node": ">=16.13.1"
   },
   "licenses": [
     {
@@ -27,10 +27,10 @@
   },
   "gypfile": true,
   "devDependencies": {
-    "mocha": "^2.0.1"
+    "mocha": "^9.1.3"
   },
   "dependencies": {
-    "bindings": "^1.2.1",
-    "nan": "^2.2.0"
+    "bindings": "^1.5.0",
+    "nan": "^2.15.0"
   }
 }
