@@ -3,7 +3,4 @@ node_js:
   - "16.13.1"
 before_install:
   - npm update -g npm
-addons:
-  apt:
-    packages:
-        - python3.6
+  - sudo apt-get install python3
